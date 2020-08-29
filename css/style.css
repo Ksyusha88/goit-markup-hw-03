@@ -1,0 +1,161 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+/* WebStudio */
+
+.logo {
+    color: #000000;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1,2;
+        letter-spacing: 0.03em;
+    }
+    .logo-header {
+        color: #2196F3;
+    }
+    .logo-footer{
+        color: #FFFFFF;
+    }
+.meny-nav{
+    color: #212121;
+}  
+.meny-nav:hover,
+.meny-nav:active,
+.meny-nav:focus
+{
+    color: #2196F3;
+}
+
+.list{
+    list-style: none;
+}
+/* Эффективные решения для вашего бизнеса */
+
+.site-header{
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #2F303A;
+    
+
+}
+.site-header h1{
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.button{
+    color: #FFFFFF;
+    background: #2196F3;
+    margin-bottom: 0px;
+}
+.conteiner{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.heading{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+/* Особенности команды */
+.features{
+    margin-bottom: 94px;
+}
+.features p {
+    color: #757575;
+}
+.features h3 {
+    color: #212121;;
+}
+/* Наша команда */
+
+.section-team{
+    padding-top: 94px;
+    padding-bottom: 94px ;
+    /*background-color: thistle ;*/
+}
+.section-team h2 {
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.team{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.team p {
+    color: #757575;
+    margin:0px;
+}
+
+/* Подвал */
+.fotter{
+    background: #2F303A
+}
+.fotter-nav{
+    color: rgba(255, 255, 255, 0.6);
+}
+.fotter-adress{
+    color: #FFFFFF;
+}
+
+/* Потрфолио */
+.logo-footer {
+    color:  #FFFFFF;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+ .fotter-logo {
+    color: #2196F3;
+ }
+ /* Потрфолио */
+ .conteiner-portfolio{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+
+
+ }
+
+
+ .button-filter button {
+    color: #212121;
+    background: #F5F4FA;
+    margin: 0px;
+ }
+ .button-filter button:hover,
+ .button-filter button:focus{
+    color: #F5F4FA;
+    background-color: #2196F3;
+
+
+ }
+ 
+ .portfolio h1{
+    color: #212121;
+ }
+ .portfolio p{
+    color: #757575;
+ }
+ li{
+    list-style-type: none;
+ }
+ .list{
+     font-style: normal;
+ }
