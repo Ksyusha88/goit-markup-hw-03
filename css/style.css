@@ -7,6 +7,9 @@
 *::after{
     box-sizing: inherit;
 }
+a { 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
 /* WebStudio */
 
 .logo {
@@ -17,16 +20,29 @@
         font-size: 26px;
         line-height: 1,2;
         letter-spacing: 0.03em;
+        margin-right: 93px;
     }
-    .logo-header {
+.logo-header {
         color: #2196F3;
     }
-    .logo-footer{
+.logo-footer{
         color: #FFFFFF;
     }
-.meny-nav{
-    color: #212121;
-}  
+
+.header-container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.meny-nav {
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 14px;
+    color: #212121; 
+}
+
+
 .meny-nav:hover,
 .meny-nav:active,
 .meny-nav:focus
@@ -37,6 +53,40 @@
 .list{
     list-style: none;
 }
+
+.list-flax {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.adress-flax {
+    display: flex;
+    font-style:normal;
+    margin-left: auto;
+    align-items: flex-end;
+} 
+
+.adress-flax .mail{
+    margin-left: 331px;
+    margin-right: 50px;
+}
+
+.header-container{
+    display: flex;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    
+}
+
+
 /* Эффективные решения для вашего бизнеса */
 
 .site-header{
@@ -63,7 +113,11 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-
+.conteiner-portfolio{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .heading{
     margin-top: 0px;
     margin-bottom: 50px;
@@ -72,8 +126,10 @@
 
 
 /* Особенности команды */
+
 .features{
     margin-bottom: 94px;
+    display: flex;
 }
 .features p {
     color: #757575;
@@ -129,15 +185,31 @@
     padding-right: 15px;
     margin-top: 94px;
     margin-bottom: 94px;
+}
 
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
+}
+.team-folio{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    flex-basis: calc((100% - 4 * 30px) / 4);
+}
 
- }
+.button-filter{
+    text-align: center;
+    margin-bottom: 34px;
 
-
+}
  .button-filter button {
     color: #212121;
     background: #F5F4FA;
     margin: 0px;
+    
+    
  }
  .button-filter button:hover,
  .button-filter button:focus{
