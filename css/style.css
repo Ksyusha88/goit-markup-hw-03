@@ -171,10 +171,35 @@ a {
     margin-bottom: 0px;
 }
 
+
 .team p {
     color: #757575;
     margin:0px;
 }
+
+.team-list{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.team-list:not(:last-child){
+    margin-right: 30px;
+    flex-basis: calc((100% - 4 * 30px) / 4);
+    width: calc((100% - 30px * 4) / 5);
+}
+.team-list:nth-child(4){
+    margin-right: 0px;
+}
+
+.team-list:nth-last-child(-n + 5){
+    margin-bottom: 0px;
+}
+
+
+/* Чем мы занимаемся */
+
+
 
 /* Подвал */
 .fotter{
