@@ -50,9 +50,11 @@ a {
 
 
 .meny-nav:hover,
-.meny-nav:active,
 .meny-nav:focus
 {
+    color: #2196F3;
+}
+.meny-nav.current{
     color: #2196F3;
 }
 
@@ -116,29 +118,40 @@ a {
 
 .site-header{
     max-width: 100%;
+    background: #2F303A;
+    /* margin-bottom: 94px; */
+    text-align: center;
+}
+
+
+.site-header h1{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    font-weight: 900;
     letter-spacing: 0.06em;
-    background: #2F303A;
-    
+    text-transform: uppercase;
+}
 
-}
-.site-header h1{
-    color: #FFFFFF;
-    /* margin-top: 0px;
-    margin-bottom: 30px; */
-}
 .button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 32px;
+    background-color: #2196F3;
     color: #FFFFFF;
-    background: #2196F3;
-    padding right: 32px;
-    padding left: 32px;
-    border: 2px;
-    height: 50px; 
-    border-radius: 5px;
-    
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 30px;
 }
+
+
 .conteiner{
     width: 1170px;
     padding-left: 15px;
@@ -154,7 +167,7 @@ a {
 
 .heading{
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -223,7 +236,7 @@ p {
 /* Чем мы занимаемся */
 
 .features-work{
-    padding-top: 94px;
+    /* padding-top: 94px; */
     padding-bottom: 94px ;
 }
 
@@ -251,7 +264,7 @@ p {
 /* Наша команда */
 
 .section-team{
-    padding-top: 94px;
+    /* padding-top: 94px; */
     padding-bottom: 94px ;
     /* background-color: thistle ; */
 }
